@@ -18,4 +18,6 @@
 
 ## 节点相关
 强行回到远端最新的一次commit：git reset --hard 
-
+提交回滚（revert）上一次提交：git revert HEAD
+提交回滚（revert）上上次提交：git revert HEAD^
+提交回滚（revert）某次提交：git revert commit 
