@@ -10,6 +10,7 @@
 查看远程分支：git branch -a  (本地分支不加-a)
 删除本地分支：git branch -D xxx
 删除远端分支：git push origin --delete xxx
+强制提交：git push -f origin xxx
 
 #### 合并
 通过merge合并：git merge xxx   //将xxx合并到当前分支
@@ -17,3 +18,4 @@
 
 ## 节点相关
 强行回到远端最新的一次commit：git reset --hard 
+
